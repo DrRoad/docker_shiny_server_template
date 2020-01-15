@@ -1,6 +1,8 @@
 # docker_shiny_server_template
 A simple template to deploy 1 (or more) shiny apps to a localhost or cloud server.
 
+[![Build Status](https://travis-ci.org/bradlindblad/docker_shiny_server_template.svg?branch=master)](https://travis-ci.org/bradlindblad/docker_shiny_server_template)
+
 # Installation
 ```
 git clone https://github.com/bradlindblad/docker_shiny_server_template
