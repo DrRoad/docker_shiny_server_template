@@ -8,5 +8,5 @@ before_install:
   - docker build -t testshiny .
 
 script:
-  - echo itworked
+  - docker ps | grep -q testshiny
 
