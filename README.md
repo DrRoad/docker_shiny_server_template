@@ -16,7 +16,12 @@ git clone https://github.com/bradlindblad/docker_shiny_server_template
 
 
 ## Build 
-cd into the root and run:
+cd into the srv directory:
+```
+cd srv
+```
+Then build:
+
 ```
 sudo docker build . -t {your tag name here}
 ```
