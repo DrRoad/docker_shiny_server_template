@@ -6,5 +6,5 @@ services:
 before_install:
   - cd srv
   - docker build -t testshiny .
-  - docker run -p 3838:3838 testshiny
+
 
