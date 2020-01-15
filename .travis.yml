@@ -7,4 +7,6 @@ before_install:
   - cd srv
   - docker build -t testshiny .
 
+script:
+  - echo itworked
 
