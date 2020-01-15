@@ -1,13 +1,9 @@
-language: R
+sudo: required
 
 services:
   - docker
 
-install:
+script:
   - cd srv
   - docker build -t testshiny .
-  - docker run --rm -p 3838:3838 testshiny
-
-script:
-  - docker ps | grep -q testshiny
 
